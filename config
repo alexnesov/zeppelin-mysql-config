@@ -1,0 +1,8 @@
+default.url:	
+	jdbc:mysql://localhost:3306/finance?allowPublicKeyRetrieval=true&useSSL=false
+default.user:
+	root
+default.driver:
+	com.mysql.jdbc.Driver
+Artifact:
+	mysql:mysql-connector-java:5.1.46
