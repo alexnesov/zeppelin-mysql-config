@@ -1,7 +1,7 @@
 <h4> Regardin Zeppelin: </h4>
 
 To launch it, go in installation folder then:
-```cd /bin```
+```cd /bin``` </br>
 ```./zeppelin-daemon.sh start```
 
 <h4> Regarding MySQL <i>per se</i> (DEBUGGING):</h4>
