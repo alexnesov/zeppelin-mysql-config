@@ -26,7 +26,7 @@ Place files in the directory that appears
 
 </br>
 
-Steps to reproduce to avoid "Loading local data is disabled; this must be enabled on both the client and server sides":
+Steps to reproduce to avoid ``` "Loading local data is disabled; this must be enabled on both the client and server sides"```:
 ```
 SET GLOBAL local_infile=1;
 quit
