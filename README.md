@@ -24,3 +24,12 @@ Steps to reproduce to avoid: "LOAD DATA LOCAL INFILE file request rejected due t
 ```
 sudo chmod 755 /var/lib/mysql-files/
 ```
+
+Steps to reproduce to avoid: "LOAD DATA LOCAL INFILE file request rejected due to restrictions on access.";
+```
+SHOW VARIABLES LIKE 'sql_mode';
+```
+If STRICT_TRANS_TABLES present then:
+```
+set sql_mode=''
+```
