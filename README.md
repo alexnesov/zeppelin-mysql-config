@@ -1,3 +1,5 @@
+<h4> Regarding MySQL per se:</h4>
+
 Steps reproduced to avoid "mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.":
 ```
 sudo chown root:root /etc/mysql/my.cnf
