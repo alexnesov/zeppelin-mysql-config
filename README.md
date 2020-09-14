@@ -36,5 +36,5 @@ SHOW VARIABLES LIKE 'sql_mode';
 ```
 If STRICT_TRANS_TABLES present then:
 ```
-set sql_mode=''
+set sql_mode='';
 ```
