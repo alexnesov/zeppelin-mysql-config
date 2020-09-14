@@ -24,8 +24,7 @@ Steps to reproduce to avoid: "LOAD DATA LOCAL INFILE file request rejected due t
 ```
 sudo chmod 755 /var/lib/mysql-files/
 ```
-
-Steps to reproduce to avoid: "LOAD DATA LOCAL INFILE file request rejected due to restrictions on access.";
+Steps to avoid ```ERROR 1265 (01000): Data truncated for column```
 ```
 SHOW VARIABLES LIKE 'sql_mode';
 ```
