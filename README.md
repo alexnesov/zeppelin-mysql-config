@@ -1,4 +1,4 @@
-<h4> Regardin Zeppelin: </h4>
+<h4> Regarding Zeppelin: </h4>
 
 To launch it, go in installation folder then:</br>
 ```cd /bin``` </br>
@@ -12,7 +12,7 @@ In my case it was first accessible at: </br>
 </br>
 <h4> Regarding MySQL <i>per se</i> (DEBUGGING):</h4>
 
-Steps reproduced to avoid ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.```:
+Steps reproduced to avoid: ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.```:
 ```
 sudo chown root:root /etc/mysql/my.cnf
 sudo chmod 0400 my.cnf
@@ -26,7 +26,7 @@ Place files in the directory that appears
 
 </br>
 
-Steps to reproduce to avoid ``` "Loading local data is disabled; this must be enabled on both the client and server sides"```:
+Steps to reproduce to avoid: ``` "Loading local data is disabled; this must be enabled on both the client and server sides"```:
 ```
 SET GLOBAL local_infile=1;
 quit
@@ -42,7 +42,7 @@ sudo chmod 755 /var/lib/mysql-files/
 
 </br>
 
-Steps to reproduce to avoid ```ERROR 1265 (01000): Data truncated for column```
+Steps to reproduce to avoid: ```ERROR 1265 (01000): Data truncated for column```
 ```
 SHOW VARIABLES LIKE 'sql_mode';
 ```
