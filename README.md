@@ -1,6 +1,6 @@
-<h4> Regarding MySQL <i>per se</i> (DEBUGGUNG)>:</h4>
+<h4> Regarding MySQL <i>per se</i> (DEBUGGUNG):</h4>
 
-Steps reproduced to avoid ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored."```:
+Steps reproduced to avoid ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.```:
 ```
 sudo chown root:root /etc/mysql/my.cnf
 sudo chmod 0400 my.cnf
@@ -27,6 +27,9 @@ Steps to reproduce to avoid: "LOAD DATA LOCAL INFILE file request rejected due t
 ```
 sudo chmod 755 /var/lib/mysql-files/
 ```
+
+</br>
+
 Steps to avoid ```ERROR 1265 (01000): Data truncated for column```
 ```
 SHOW VARIABLES LIKE 'sql_mode';
