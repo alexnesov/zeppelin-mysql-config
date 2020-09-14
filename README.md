@@ -4,6 +4,11 @@ To launch it, go in installation folder then:</br>
 ```cd /bin``` </br>
 ```./zeppelin-daemon.sh start```
 
+UI, generally is at: </br>
+```http://localhost:8080/#/``` </br>
+In my case it is at: </br>
+```http://localhost:8080/#/```
+</br>
 <h4> Regarding MySQL <i>per se</i> (DEBUGGING):</h4>
 
 Steps reproduced to avoid ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.```:
