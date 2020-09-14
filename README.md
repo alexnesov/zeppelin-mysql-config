@@ -1,6 +1,6 @@
 <h4> Regardin Zeppelin: </h4>
 
-To launch it, go in installation folder then:
+To launch it, go in installation folder then:</br>
 ```cd /bin``` </br>
 ```./zeppelin-daemon.sh start```
 
