@@ -1,4 +1,10 @@
-<h4> Regarding MySQL <i>per se</i> (DEBUGGUNG):</h4>
+<h4> Regardin Zeppelin: </h4>
+
+To launch it, go in installation folder then:
+```cd /bin```
+```./zeppelin-daemon.sh start```
+
+<h4> Regarding MySQL <i>per se</i> (DEBUGGING):</h4>
 
 Steps reproduced to avoid ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.```:
 ```
@@ -23,14 +29,14 @@ quit
 
 </br>
 
-Steps to reproduce to avoid: "LOAD DATA LOCAL INFILE file request rejected due to restrictions on access.":
+Steps to reproduce to avoid: ```LOAD DATA LOCAL INFILE file request rejected due to restrictions on access.```:
 ```
 sudo chmod 755 /var/lib/mysql-files/
 ```
 
 </br>
 
-Steps to avoid ```ERROR 1265 (01000): Data truncated for column```
+Steps to reproduce to avoid ```ERROR 1265 (01000): Data truncated for column```
 ```
 SHOW VARIABLES LIKE 'sql_mode';
 ```
