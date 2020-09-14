@@ -1,4 +1,4 @@
-<h4> Regarding MySQL per se:</h4>
+<h4> Regarding MySQL <i>per se</i>:</h4>
 
 Steps reproduced to avoid "mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.":
 ```
