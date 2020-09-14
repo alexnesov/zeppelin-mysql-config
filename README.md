@@ -6,8 +6,9 @@ To launch it, go in installation folder then:</br>
 
 UI, generally is at: </br>
 ```http://localhost:8080/#/``` </br>
-In my case it is at: </br>
-```http://localhost:8080/#/```
+In my case it was first accessible at: </br>
+```http://127.0.0.1:8080/#/```
+
 </br>
 <h4> Regarding MySQL <i>per se</i> (DEBUGGING):</h4>
 
