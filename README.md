@@ -1,6 +1,6 @@
-<h4> Regarding MySQL <i>per se (DEBUGGUNG) </i>:</h4>
+<h4> Regarding MySQL <i>per se</i> (DEBUGGUNG)>:</h4>
 
-Steps reproduced to avoid "mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.":
+Steps reproduced to avoid ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored."```:
 ```
 sudo chown root:root /etc/mysql/my.cnf
 sudo chmod 0400 my.cnf
