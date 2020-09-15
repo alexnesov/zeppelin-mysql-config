@@ -1,4 +1,19 @@
-<h4> Regarding Zeppelin: </h4>
+
+
+<h4> Regarding Zeppelin-Python: </h4>
+
+In my case (Ubuntu 20.x, Python 3.8.x):
+
+In configs, replace ```python``` by ```python3```. Or create alias in ```PATH```
+
+install pip3 first, then:
+```
+pip3 install jupyter
+pip3 install grpcio
+pip3 install protobuf
+```
+
+<h4> Regarding Zeppelin-MySQL: </h4>
 
 To launch it, go in installation folder then:</br>
 ```cd /bin``` </br>
