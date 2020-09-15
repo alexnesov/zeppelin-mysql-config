@@ -38,7 +38,7 @@ If not then:
 ```sudo apt install maven```
 
 
-Steps reproduced to avoid: ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.```:
+<ul>Steps reproduced to avoid: ```mysql: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.```:</ul>
 ```
 sudo chown root:root /etc/mysql/my.cnf
 sudo chmod 0400 my.cnf
