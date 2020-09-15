@@ -13,6 +13,9 @@ pip3 install grpcio
 pip3 install protobuf
 ```
 
+I noticed also that the Python interpreter won't work if the right permission are not set. One needs to recursively grant permission to actual user:
+```sudo chown -R <user(and not root)>:<user(ant not root) zeppelin-0.9.0-preview2-bin-all/```
+
 <h4> Regarding Zeppelin-MySQL: </h4>
 
 To launch it, go in installation folder then:</br>
